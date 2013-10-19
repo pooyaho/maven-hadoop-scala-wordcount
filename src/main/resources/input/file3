@@ -1,0 +1,27 @@
+Uhuru is looking for 10 volunteers to try out the next version of the Uhuru cloud service. This is a very early trial so we only want to limit this to 10 users who have their own apps that they wish to publish.
+
+This new version of our service is built on a foundation of Cloud Foundry 2 (our current beta is running Cloud Foundry 1). Here are some of the improvements:
+Greater flexibility in creating and managing teams and organizations.
+Greater security that compartmentalizes apps and users more effectively.
+Greater reliability.
+Uses a buildpack model for publishing apps similar to Heroku (it is compatible with most Heroku buildpacks). This makes it easier for us to support a wider variety of frameworks and languages and let users include unique libraries they may wish. Python is one of the new languages we are now able to support.
+There are some limitations in the new version of our service.
+Our graphical client tools have not yet been ported to support the new service. Specifically, the cloud admin and Visual Studio plugin no longer work. You will need to use the command line to publish your applications.
+The Uhuru File Service is not available yet. Apps which use files to dynamically store data are not supported. This means that nearly all CMSes (content management systems) are not supported yet (unless they exclusively use a database for storing all content). FTP is not supported.
+If you are interested in being one of the first users to try out the early beta just drop me a note. We will open the new beta up to all users once the early testing is complete. We will make an announcement giving notice about shutting down the existing beta service sometime before the end of the year.
+
+Thanks,
+Michael Surkan
+
+Marketing Director,
+Uhuru Software
+
+---------------------------------
+Don’t forget that all future status announcements for the Uhuru service will be published to our community discussion list. Make sure you have joined the discussion list to receive service availability messages.
+
+You can subscribe to the Uhuru community e-mail discussion list here:
+http://community.uhurusoftware.com/mailman/listinfo/appcloud_community.uhurusoftware.com
+
+--
+This message was sent to pooya.husseini@gmail.com by michael.surkan@uhurusoftware.com
+You can opt out completely from all future mailings.
